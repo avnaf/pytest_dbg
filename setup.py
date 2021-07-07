@@ -6,6 +6,7 @@ setup(
     install_requires=[
         'ipdb',
         'pudb',
+        'pynput',
     ],
     entry_points={'pytest11': ['pytest_dbg = src.plugin']},
     python_requires='>=3.5',
